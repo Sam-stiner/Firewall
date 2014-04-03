@@ -4,8 +4,7 @@
     <title></title>
   </head>
   <body>
-    <h1>No Security... yet we just need a blank page</h1>
-    <h2>But with a login and password so we can make the acual firewall</h2>
+    <h4> Admin Login </h4>
     <form name="login">
       Username<input type="text" name="userid"/>
       Password<input type="password" name="pswrd"/>
@@ -26,6 +25,9 @@
         }
         }
     </script>
+        
+    <h1>Welcome to Chatbot Alex!</h1>
+    <p style="font-size: 30px"> Say anything you'd like to Alex </p>
   
   </body>
 </html>
