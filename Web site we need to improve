@@ -4,7 +4,11 @@
     <title></title>
   </head>
   <body>
-    <h4> Admin Login </h4>
+  
+    <div align="center">
+    <p style="font-size: 50px">Chatbot Alex</p>
+    <p style="font-size: 20px">You must first sign in to talk to Alex</p>
+      
     <form name="login">
       Username<input type="text" name="userid"/>
       Password<input type="password" name="pswrd"/>
@@ -17,7 +21,7 @@
          /*the following code checkes whether the entered userid and password are matching*/
         if(form.userid.value == "admin" && form.pswrd.value == "pass")
         {
-        window.open('yay.html')/*opens the target page while Id & password matches*/
+        window.open('mainpage.html')/*opens the target page while Id & password matches*/
         }
         else
         {
@@ -25,9 +29,11 @@
         }
         }
     </script>
-        
-    <h1>Welcome to Chatbot Alex!</h1>
-    <p style="font-size: 30px"> Say anything you'd like to Alex </p>
-  
-  </body>
+
+    <h2>Bored? Lonely? Procrastinating on that big school project that's due tomorrow? Then you've come to the right place!</h2>
+    <p style="font-size: 20px"> Alex is a modified verision of the original chatbot Eliza. Once you sign in, you may have a coversation with Alex! So while you struggle with interacting with actual humans, Alex is always here for you!</p>
+    <img src='http://1.bp.blogspot.com/_7g7s559LzjY/TJC5YiesR-I/AAAAAAAABO4/9BSgzQqUsck/s400/foreveralonetemplate.png' alt="Forever Alone"/>
+    <div><cite>Forever Alone. 2010. Of Bees and Geometry. Web. 4 Apr. 2014. <http://beesandgeometry.blogspot.com/2010_09_01_archive.html>.</cite></div>
+  </div>
+</body>
 </html>
