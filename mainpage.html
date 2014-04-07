@@ -1,12 +1,14 @@
 <html>
   <head>
-    <title>Welcome</title>
+    <title>Chatbot Alex</title>
   </head>
-  <body>
+  <body style="background-color:LightCyan;">
+    <div align="center">
     <h1> Welcome to the main page! </h1>
     <p>Now that you have successfully logged on to this website, please feel free to converse with our chatbot, modified from the original Eliza.</p>
+    </div>
 
-    <SCRIPT language="JavaScript"><!-- 
+    <SCRIPT language="JavaScript"> 
 // Chat Bot by George Dunlop, www.peccavi.com
 // Note - Eliza is a Classic Model of chat Bots.. but this implementation is mine :)
 // May be used/modified if credit line is retained (c) 1997 All rights reserved
@@ -100,9 +102,9 @@
 
 
 // Dress Input formatting i.e leading & trailing spaces and tail punctuation
-	
+
 	var ht = 0;												// head tail stearing
-	
+
 	function strTrim(strng){
 		if(ht == 0){ loc = 0; }									// head clip
 		else { loc = strng.length - 1; }						// tail clip  ht = 1 
@@ -148,7 +150,7 @@
 
 	var pass = 0;
 	var thisstr = "";
-		
+
 	function phrase( sString, keyidx ){
 		idxmin = keyword[keyidx].idx;
 		idrange = keyword[keyidx].end - idxmin + 1;
@@ -173,7 +175,7 @@
 		} else sTemp = rTemp;
 		return sTemp;
 	}
-	
+
 // returns array index of first key found
 
 		var keyid = 0;
@@ -237,7 +239,7 @@
 			var strng2 = "  I can't help you without a dialog!";
 			update(strng1,strng2);
 	}
-		
+
 // build our data base here
                                  
     conj1[0]  = "are";   		conj2[0]  = "am";
@@ -437,6 +439,21 @@
     
     loaded = true;			// set the flag as load done
     
-    
+    </SCRIPT>
+
+<div align="center">
+<h2>Your coversation:</h2>
+</div>
+
+<script type="text/javascript">
+    document.write(produceMessage())
+</script>
+
+<div align="center">
+<form name="input" action="listen(user)">
+<input type="text" name="dialog">
+<input type="submit" vaule="Submit">
+</form>
+</div>
   </body>
 </html>
