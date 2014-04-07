@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Chatbot Alex</title>
+
+<style>
+div.ex
+{
+width:1350px;
+padding:10px;
+border:20px;
+border-style:groove;
+border-color:MediumPurple;
+margin:0px;
+}
+</style>
+
   </head>
-  <body>
+  <body style="background-color:Khaki;">
   
+<div class="ex">
     <div align="center">
-    <p style="font-size: 50px">Chatbot Alex</p>
+    <p style="font-family:Century Gothic;color:MediumPurple;font-size: 50px"><strong>Chatbot Alex</strong></p>
     <p style="font-size: 20px">You must first sign in to talk to Alex</p>
       
     <form name="login">
@@ -30,10 +44,12 @@
         }
     </script>
 
-    <h2>Bored? Lonely? Procrastinating on that big school project that's due tomorrow? Then you've come to the right place!</h2>
+    <h3 style="font-family:Cursive;color:MediumPurple">Bored? Lonely? Procrastinating on that big school project that's due tomorrow? Then you've come to the right place!</h3>
     <p style="font-size: 20px"> Alex is a modified verision of the original chatbot Eliza. Once you sign in, you may have a coversation with Alex! So while you struggle with interacting with actual humans, Alex is always here for you!</p>
     <img src='http://1.bp.blogspot.com/_7g7s559LzjY/TJC5YiesR-I/AAAAAAAABO4/9BSgzQqUsck/s400/foreveralonetemplate.png' alt="Forever Alone"/>
     <div><cite>Forever Alone. 2010. Of Bees and Geometry. Web. 4 Apr. 2014. <http://beesandgeometry.blogspot.com/2010_09_01_archive.html>.</cite></div>
   </div>
+<p>Website by Samuel Stiner and Stephanie Caulk</p>
+</div>
 </body>
 </html>
