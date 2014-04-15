@@ -68,8 +68,8 @@ var elizaSynons = {
 
 var elizaKeywords = [
 
-/*
   Array of
+ 
   ["<key>", <rank>, [
     ["<decomp>", [
       "<reasmb>",
@@ -82,7 +82,6 @@ var elizaKeywords = [
       "<reasmb>"
     ]]
   ]]
-*/
 
 ["xnone", 0, [
  ["*", [
